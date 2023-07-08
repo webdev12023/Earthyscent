@@ -1,0 +1,650 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar {
+    top: 0px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #FBF3DB;
+    color: #364E46;
+}
+
+
+.navbar img {
+    height: 110px;
+    margin-top: -30px;
+}
+
+.navbar p {
+    margin-top: -55px;
+    margin-left: 93px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar ul {
+    list-style: none;
+    font-family: cursive;
+    display: flex;
+
+}
+
+.navbar a:hover {
+    color: #949C8C;
+}
+
+.navbar a {
+    color: #364E46;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/* search bar */
+.search-bar {
+    margin-left: -30px;
+}
+
+.search-bar input {
+    margin-left: 10px;
+    font-family: cursive;
+    border: none;
+    height: 40px;
+    width: 300px;
+}
+
+.search-bar i {
+    background-color: #364E46;
+    color: white;
+    padding-left: 10px;
+}
+
+.search-bar i:hover {
+    border: 2px solid #949C8C;
+}
+
+/* Whish */
+.wishlist {
+    font-family: cursive;
+}
+
+.wishlist i {
+    font-size: 1.5rem;
+    margin-left: -30px;
+}
+
+/* cart */
+.cart {
+    font-family: cursive;
+}
+
+.cart i {
+    font-size: 1.5rem;
+    margin-left: -30px;
+
+}
+
+/* User */
+.user i {
+    font-size: 1.5rem;
+    margin-left: -30px;
+}
+
+/* Btn */
+.btn button {
+    font-family: cursive;
+    border: none;
+    font-weight: 600;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: #364E46;
+}
+
+.btn button:hover {
+    background-color: #949C8C;
+}
+
+/* Landing Page */
+
+.landing-page {
+    background-image: url("spa-still-life-with-natural-toothbrushes-scrub-soap-decorative-details-flat-lay.jpg");
+    background-size: cover;
+    height: 1000px;
+}
+
+.landing-page h1 {
+    padding-top: 300px;
+    margin-left: 200px;
+    font-size: 5rem;
+    text-align: center;
+    width: 900px;
+    color: #FBF3DB;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.landing-page p {
+    cursor: pointer;
+    text-align: center;
+    font-size: 2rem;
+    height: 40px;
+    background-color: #364E46;
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+
+/* Hero*/
+.heading {
+    background-color:#949C8C;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.heading p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/* Main line1*/
+.pr-img {
+    background-color: gainsboro;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#v1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    color: black;
+}
+
+#v2 {
+    color: black;
+    top: 10px;
+    font-family: cursive;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    margin-top: -20px;
+
+}
+
+#v3 {
+    border: 2px solid #364E46;
+    background-color: #FBF3DB;
+    color: #364E46;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 25px;
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#v3:hover {
+    color: white;
+    background-color: #364E46;
+}
+
+#v4 {
+    margin-bottom: 10px;
+    margin-left: 140px;
+    height: 25px;
+    width: 100px;
+    border: 2px solid #364E46;
+    background-color: #FBF3DB;
+    color: #364E46;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#v4:hover {
+    color: white;
+    background-color: #364E46;
+}
+
+.pr-img ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+
+
+.pr-img li {
+    margin-top: 20px;
+}
+
+.pr-img i {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.pr-img img {
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.pr-img img:hover {
+    border: 2px solid #364E46;
+}
+
+/* line2 */
+#v10 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    color: black;
+}
+
+#v20 {
+    color: black;
+    top: 10px;
+    font-family: cursive;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    margin-top: -20px;
+
+}
+
+#v30 {
+    border: 2px solid #364E46;
+    background-color: #FBF3DB;
+    color: #364E46;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 25px;
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#v30:hover {
+    color: white;
+    background-color: #364E46;
+}
+
+#v40 {
+    margin-left: 140px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 100px;
+    border: 2px solid #364E46;
+    background-color: #FBF3DB;
+    color: #364E46;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#v40:hover {
+    color: white;
+    background-color: #364E46;
+}
+
+.pr-img ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+
+
+.pr-img li {
+    margin-top: 20px;
+}
+
+.pr-img i {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.pr-img img {
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+/* line3 */
+#v101 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    color: black;
+}
+
+#v201 {
+    color: black;
+    top: 10px;
+    font-family: cursive;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    margin-top: -20px;
+
+}
+
+#v301 {
+    border: 2px solid #364E46;
+    background-color: #FBF3DB;
+    color: #364E46;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 25px;
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#v301:hover {
+    color: white;
+    background-color: #364E46;
+}
+
+#v401 {
+    margin-left: 140px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 100px;
+    border: 2px solid #364E46;
+    background-color: #FBF3DB;
+    color: #364E46;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#v401:hover {
+    color: white;
+    background-color: #364E46;
+}
+
+.pr-img ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+
+
+.pr-img li {
+    margin-top: 20px;
+}
+
+.pr-img i {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.pr-img img {
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+/* Cruelity */
+.com {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.com h1 {
+    background-color: #949C8C;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.farm ul {
+    justify-content: space-evenly;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.farm img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.farm p {
+    font-size: 1rem;
+    color: black;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.cruelity {
+    text-align: center;
+}
+
+.cruelity img {
+    height: 200px;
+
+}
+
+/* footer */
+.bottom {
+    background-color: black;
+    height: 300px;
+}
+
+.join h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: cursive;
+    color: white;
+    padding-top: 20px;
+}
+
+.join input {
+    margin-left: 730px;
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    border: none;
+    padding-left: 10px;
+
+}
+
+.join button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* fb */
+.fb {
+    margin-left: 720px;
+}
+
+.fb ul {
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+    margin-left: 100px;
+    list-style: none
+}
+
+.fb a {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.fb a:hover {
+    color: red;
+}
+
+/* About */
+.About {
+    text-align: center;
+    margin-left: 700px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.About ul {
+    list-style: none;
+}
+
+.about1 a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+
+}
+
+.about1 a:hover {
+    color: red;
+}
+
+.about2 a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-left: 100px;
+}
+
+.about2 a:hover {
+    color: red;
+}
+
+.about3 a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-left: 100px;
+}
+
+.about3 a:hover {
+    color: red;
+}
+/* Copyright */
+.copy{
+    margin-top: 20px;
+    opacity: 50%;
+}
+.copy p{
+    margin-left: 800px;
+    color:white
+
+}
+
+/* ---------------------------Chat gpt--------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Rest of the CSS code */
+
+@media (max-width: 500px) {
+
+
+    *{
+        margin: -5px;
+        padding: 0px;
+    }
+
+    .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #FBF3DB;
+    color: #364E46;
+}
+
+.navbar img {
+    height: 40px;
+    margin-top: -70px;
+}
+.navbar ul {
+    list-style: none;
+    font-family: cursive;
+    display: flex;
+    margin-left: -20px;
+    align-items: center;
+    text-align: center;
+   
+
+}
+.navbar p {
+    margin-top: -90px;
+    margin-left: 40px;
+    font-size: 0.5rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar a {
+    color: #364E46;
+    font-size: .5rem;
+    text-decoration: none;
+    margin-left: 44px;
+}
+/* search bar */
+.search-bar {
+    margin-left: -50px;
+}
+
+.search-bar input {
+    margin-left: 5px;
+    font-family: cursive;
+    border: none;
+    height: 20px;
+    width: 150px;
+}
+
+}
